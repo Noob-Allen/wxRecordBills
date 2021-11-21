@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "记账",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "xp-picker": "/components/xp-picker/xp-picker"
+  }
+}

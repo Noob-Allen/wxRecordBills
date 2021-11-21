@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['clickme']]]]}}" bindtap="__e">lalala</button></view>

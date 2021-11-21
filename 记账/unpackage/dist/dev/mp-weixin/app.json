@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/pic/pic",
+        "pages/record/record",
+        "pages/bills/bills",
+        "pages/person/person"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#ffda44",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#000000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/tobarPic/收入明细.png",
+                "selectedIconPath": "static/tobarPic/收入明细ed.png",
+                "text": "明细"
+            },
+            {
+                "pagePath": "pages/pic/pic",
+                "iconPath": "static/tobarPic/图表.png",
+                "selectedIconPath": "static/tobarPic/图表ed.png",
+                "text": "图表"
+            },
+            {
+                "pagePath": "pages/record/record",
+                "iconPath": "./static/tobarPic/加号.png",
+                "selectedIconPath": "./static/tobarPic/加号ed.png",
+                "text": "记账"
+            },
+            {
+                "pagePath": "pages/bills/bills",
+                "iconPath": "static/tobarPic/账单.png",
+                "selectedIconPath": "static/tobarPic/账单ed.png",
+                "text": "账单"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "iconPath": "static/tobarPic/我的.png",
+                "selectedIconPath": "static/tobarPic/我的ed.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
